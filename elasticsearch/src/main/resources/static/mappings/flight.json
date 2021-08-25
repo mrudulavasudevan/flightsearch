@@ -1,0 +1,30 @@
+{
+  "properties" : {
+    "id": {
+      "type": "keyword"
+    },
+    "airlineCode": {
+      "type": "text"
+    },
+    "flightNumber": {
+      "type": "text"
+    },
+    "departureApt": {
+      "type": "text"
+    },
+    "destinationApt": {
+      "type": "text"
+    },
+    "flightStatus": {
+      "type": "text"
+    },
+    "departureDate": {
+      "format": "yyyy-MM-dd HH:mm:ss",
+      "type": "date"
+    },
+    "arrivalDate": {
+      "format": "yyyy-MM-dd HH:mm:ss",
+      "type": "date"
+    }
+  }
+}
